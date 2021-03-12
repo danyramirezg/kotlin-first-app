@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="button_base">Click me!</string>
+    <string name="hint_name">How do you like I call you?</string>
+</resources>

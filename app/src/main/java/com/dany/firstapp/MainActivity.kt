@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
             if (input.isEmpty()) {
                 textView.text = "Please enter a name"
             } else {
-                textView.text = "$input, Happy Birthday to you!"
+                textView.text = "${input.capitalize()}, Happy Birthday to you!"
                 it.alpha = 0.5f
             }
         }
